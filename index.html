@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111452095-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111452095-2');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Netqon Overwork™是免费开源软件。它能够为您统计各个APP的用量时间，准确记录工作时间长度等，是简单可靠的办公伙伴。">
+
+    <title>Netqon Overwork™ App(A.F.C App) 办公时间统计/App用量统计/工作小时数统计/守护办公健康</title>
+    <link rel="icon" href="libs/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="libs/bootstrap.css" />
+    <script src="libs/jquery.js"></script>
+    <script src="libs/bootstrap.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div id="world">
+        <div id="head">
+        </div>
+        <div id="core">
+            <div class="flex-push"></div>
+            <div id="show_features">
+                <div id="carouselExampleIndicators" class="carousel slide showcase" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 " src="libs/0.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block shwotext">
+                                <p>工作时间刻度</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="libs/1.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block shwotext">
+                                <p>APP时间统计</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="libs/2.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block shwotext">
+                                <p>工作时长统计</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+<!-- 
+                <div id="carouselExampleSlidesOnly" class="carousel slide showcase" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 " src="libs/0.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>总览全天工作状态</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="libs/1.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>为您总结每天花费在各App上的时间，支持您做出时间管理的决策</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="libs/2.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>为您整理过往的历史数据，帮助您掌握工作强度的发展趋势。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> -->
+            </div>
+
+            <div id="show_titles">
+                <img src="libs/favicon.png">
+                <div id="it">
+                    <h2>Netqon</h2>
+                    <h1>Overwork™
+                    </h1>
+                    <h3>
+                        APP用量统计，工作小时数统计，工作超载提醒，免费开源
+                    </h3>
+                    <div class="label">Downloads:</div>
+                </div>
+
+                <div>
+                    <a class="btn_download" href="http://overwork.netqon.com/download/latest/overwork-darwin-latest.dmg">DMG For Mac</a>
+                    <a class="btn_download" href="http://overwork.netqon.com/download/latest/overwork-win32-latest.zip">Installer For MSWin</a>
+                    <a class="btn_download" href="https://github.com/fateleak/overwork">Fork me on Github</a>
+                </div>
+
+                <footer id="foot">
+                    <a>QQ群：568968683</a>
+                    <a href="http://m4j0r.com/articles/29">关于 | 用户协议</a>
+                    <!-- <a href="http://m4j0r.com/articles/22">友情链接</a> -->
+                    <a href="http://www.miibeian.gov.cn/">浙ICP备17048489号</a>
+                    <a href="http://boringuniverse.com">&copy; 2017-2018 netqon.com</a>
+                </footer>
+            </div>
+            <div class="flex-push"></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
