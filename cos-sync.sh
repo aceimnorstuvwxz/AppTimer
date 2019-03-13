@@ -1,0 +1,1 @@
+coscmd -b afc-static-v2-1253910480 upload -rs content / 
