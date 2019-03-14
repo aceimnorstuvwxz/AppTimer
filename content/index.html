@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="FATECORE AppTimer™能够为您统计各个APP的用量时间，准确记录工作时间长度等，是简单可靠的办公伙伴。">
 
-    <title>FATECORE AppTimer™ App(A.F.C App) 办公时间统计/App用量统计/工作小时数统计/守护办公健康</title>
+    <title>AppTimer™ App(原Overwork App) 办公时间统计/App用量统计/工作小时数统计/守护办公健康 - FATECORE</title>
     <link rel="icon" href="libs/favicon.png" type="image/png" />
     <link rel="stylesheet" href="libs/bootstrap.css" />
     <script src="libs/jquery.js"></script>
@@ -27,6 +27,52 @@
 
 <body>
 
+    <header>
+        <style>
+            header {
+                display: flex;
+                padding: 0px 20px;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 10px rgb(208, 208, 208);
+            }
+
+            header>a {
+                display: block;
+            }
+
+            #header_logo {
+                max-height: 50px;
+                margin: 0px 20px;
+            }
+
+            .header-app-item {
+                /* padding: 20px; */
+                font-size: 14px;
+                display: inline-block;
+                margin: 20px;
+                width: 100px;
+                text-align: center;
+                color: #333;
+            }
+
+            .header-app-item[pressed="true"] {
+                color: rebeccapurple;
+                /* border-bottom: 2px solid rgb(247, 184, 76); */
+                font-style: italic;
+            }
+
+            .header-app-item:hover {
+                color: rebeccapurple;
+            }
+        </style>
+        <a class="header-app-item" href="http://irreader.fatecore.com">irreader</a>
+        <a class="header-app-item" href="http://owm.fatecore.com">OpenWebMonitor</a>
+        <a class="header-app-item" pressed="true" href="http://apptimer.fatecore.com">AppTimer</a>
+        <a class="header-app-item" href="https://fatecore.com">用户中心</a>
+        <a href="#"><img id="header_logo" src="http://fate2.oss-cn-shanghai.aliyuncs.com/kong/kong_icon.png"
+                alt="FATECORE" /></a>
+    </header>
     <div id="world">
         <div id="head">
         </div>
